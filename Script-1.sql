@@ -190,7 +190,7 @@ INSERT INTO songinsongsbook (song_id, songsbook_id)
 VALUES(987, 2);
 
 INSERT INTO songinsongsbook (song_id, songsbook_id)
-VALUES(5, 2);
+VALUES(1, 2);
 
 INSERT INTO songinsongsbook (song_id, songsbook_id)
 VALUES(100, 2);
@@ -202,7 +202,7 @@ INSERT INTO songinsongsbook (song_id, songsbook_id)
 VALUES(100, 4);
 
 INSERT INTO songinsongsbook (song_id, songsbook_id)
-VALUES(5, 4);
+VALUES(1, 4);
 
 INSERT INTO songinsongsbook (song_id, songsbook_id)
 VALUES(30, 4);

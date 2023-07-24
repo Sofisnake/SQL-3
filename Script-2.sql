@@ -21,13 +21,13 @@ WHERE NOT name LIKE '%% %%';
 
 -- Название треков, которые содержат слово «мой» или «my».
 SELECT name_song FROM song
-WHERE name_song ILIKE 'Мой_%' 
-OR name_song ILIKE '%_мой'
-OR name_song ILIKE '%_мой_%'
+WHERE name_song ILIKE 'Мой %' 
+OR name_song ILIKE '% мой'
+OR name_song ILIKE '% мой %'
 OR name_song ILIKE 'мой'
-OR name_song ILIKE 'my_%'
-OR name_song ILIKE '%_my'
-OR name_song ILIKE '%_my_%'
+OR name_song ILIKE 'my %'
+OR name_song ILIKE '% my'
+OR name_song ILIKE '% my %'
 OR name_song ILIKE 'my';
 
 
